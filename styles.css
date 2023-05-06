@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  background: whitesmoke;
+  height: 15vh;
+  align-items: center;
+  position: fixed;
+  width: 1000px;
+}
+
+#navbar #list-items .toggle {
+  border-radius: 10px;
+}
+
+#navbar #list-items,li {
+  display: flex;
+  padding: 0.9rem;
+  justify-content: space-between;
+}
+
+#navbar li a {
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+#navbar li a:hover {
+  color: lightcoral;
+  transition: 0.15s;
+}
+
+.free {
+  background-color: lightcoral;
+  border-radius: 0.5rem;
+}
+
+.free #free {
+  color: white;
+  font-weight: bold;
+}
+
+.free:hover {
+  background: lightsalmon;
+  animation: fadeInleft;
+  animation-delay: 0.8s;
+}
+
+/* second section */
+
+#main-section {
+  height: 90vh;
+  justify-content: center;
+  display: flex;
+  background: url(images/house.jpg) no-repeat center center/cover;
+  padding: 7rem;
+  align-items: center;
+}
+
+.picture {
+  height: 25px;
+  align-items: center;
+  border-radius: 100%;
+  margin-left: -2rem;
+  text-decoration: none;
+}
+
+#every {
+  font-size: 12px;
+  color: antiquewhite;
+}
+
+.lorem {
+  line-height: 23px;
+  padding-bottom: 2rem;
+  color: whitesmoke;
+}
+
+#main-section .get {
+  padding-bottom: 0.9rem;
+}
+
+#main-section #get {
+  color: lightcoral;
+}
+
+
+/* links */
+
+#main-section a {
+  text-decoration: none;
+  color: darkgray;
+  border: 1px black solid;
+  padding: 0.6rem 2rem;
+  margin: 1rem;
+  border: none;
+}
+
+#main-section .learn {
+  background: lightcoral;
+  color: white;
+  border-radius: 5px;
+}
+
+#main-section .hire {
+  border: 1px black solid;
+  color: slategray;
+  border-radius: 5px;
+  outline: none;
+}
+
+#main-section .learn:hover {
+  opacity: 0.7;
+  transition: 0.15s;
+}
+
+#main-section .hire:hover {
+  background: lightcoral;
+  color: white;
+  border: none;
+  transition: 0.15s;
+}
+
+/* services */
+#projects-sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service {
+  text-align: center;
+  padding-top: 3rem;
+  color: black;
+  font-weight: bold;
+  font-size: 43px;
+}
+
+#projects-sec div .image-sec {
+  height: 100px;
+  margin-left: 5rem;
+ margin: 4rem;
+ border: 1px black solid;
+ border-radius: 50%;
+ background-color: lightcoral;
+}
+
+
+#projects-sec div {
+  border: 1px gray solid;
+  margin-top: 5.3rem;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+#projects-sec div p {
+  text-align: center;
+  line-height: 29px;
+  font-weight: light;
+}
+
+#projects-sec h3 {
+  color: lightcoral;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+
+/* about */
+
+#about-us {
+  color: lightgray;
+}
+
+#about-us h3 {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  background: lavenderblush;
+}
+
+#about-us p {
+  text-align: center;
+  line-height: 29px;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  color: lightgray;
+}
+
+#contact h4 {
+  line-height: 19px;
+  padding-bottom: 1rem;
+}
+
+#contact p {
+  line-height: 20px;
+}
+
+#contact div {
+  border: 1px gray solid;
+  margin: 4rem;
+  height: 400px;
+  width: 350px; 
+  border: none;
+}
+
+#contact div form input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px;
+  outline: none;
+  border: none;
+  margin: 1.3rem;
+  background: white;
+}
+
+#contact div form .link {
+  color: white;
+  background: lightcoral;
+  text-decoration: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  margin: 5rem;
+}
+ .contacts {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
+  background: lavenderblush;
+ }
+
+ /* footer */
+
+ footer {
+  text-align: center;
+  background: black;
+  color: whitesmoke;
+  height: 70px;
+  padding: 1rem;
+ }
+
+
+ 
+ body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
