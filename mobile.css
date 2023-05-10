@@ -1,0 +1,176 @@
+*  {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  justify-content: center;
+  max-width: 500px;
+}
+
+body #navbar { 
+  margin-left: -2rem;
+  margin-top: -2rem;
+  background: whitesmoke;
+  height: 15vh;
+  align-items: center;
+  position: fixed;
+  width: 550px;
+  opacity: 0.9;
+}
+#navbar .services{
+  margin-right: -5rem;
+}
+
+#navbar #list-items,li {
+  display: flex;
+  justify-content: center;
+}
+
+.page,.contact,.port {
+  display: none;
+}
+
+body.toggle {
+  margin-left: -5rem;
+}
+
+.free {
+  display: none;
+}
+
+.home {
+  padding-left: -1rem;
+}
+
+body .picture {
+  height: 25px;
+  align-items: center;
+  border-radius: 100%;
+  margin-left: -1.9rem;
+  text-decoration: none;
+}
+
+/* second section */
+
+#main-section #second {
+  /* border: 1px black solid; */
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+body #main-section {
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  background: url(images/house.jpg) no-repeat center center/cover;
+  padding: 7rem;
+  align-items: center;
+}
+
+
+#every {
+  display: none;
+}
+
+
+.lorem {
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+#main-section #get {
+  padding-top: 3rem;
+  text-align: center;
+  color: lightcoral;
+}
+
+/* links */
+
+
+body #main-section a {
+  text-decoration: none;
+  color: darkgray;
+  border: 1px black solid;
+  padding: 0.4rem 0.5rem;
+  border: none;
+}
+
+#main-section .learn {
+  background: lightcoral;
+  color: white;
+  border-radius: 5px;
+  margin-left: 0.7rem;
+  text-align: center;
+}
+
+
+#main-section .hire {
+  border: 1px black solid;
+  color: slategray;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 0.7rem;
+  text-align: center;
+}
+
+/* Services */
+#projects-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#projects-sec div{
+  margin-left: 2rem;
+}
+
+/* About Us */
+
+#about-us h3 {
+  color: black;
+  max-width: 550px;
+}
+
+/* contact */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  color: lightgray;
+}
+
+#contact h4 {
+  line-height: 19px;
+  margin-left: -3.5rem;
+  /* text-align: center; */
+  /* padding-bottom: 1rem; */
+}
+
+#contact p {
+  line-height: 20px;
+  margin-left: -3.5rem;
+  margin-bottom: -20rem;
+}
+
+#contact div {
+  border: 1px gray solid;
+  margin: 1rem;
+  height: 400px;
+  width: 350px; 
+  border: none;
+}
+#contact div form input{
+  width: 200px;
+}
+
+#contact div form{
+  width: 320px;
+  border: 1px black solid;
+  border: none;
+  margin-top: -7rem;
+  margin-left: -2.3rem;
+}
